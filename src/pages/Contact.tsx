@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import Layout from "@/components/layout/Layout";
+import { supabase } from "@/integrations/supabase/client";
 import { z } from "zod";
 
 const contactInfo = [
@@ -43,10 +44,20 @@ const Contact = () => {
       return;
     }
 
-    // For now, just show success toast (database integration will be added with Lovable Cloud)
-    toast({ title: "Enquiry Submitted!", description: "Our team will contact you shortly." });
-    setFormData({ name: "", email: "", phone: "", message: "" });
-    setIsSubmitting(false);
+    try {
+      const { error: dbError } = await supabase.from("enquiries").insert([{
+        name: validation.data.name, email: validation.data.email, phone: validation.data.phone, message: validation.data.message,
+      }]);
+      if (dbError) throw dbError;
+
+      toast({ title: "Enquiry Submitted!", description: "Our team will contact you shortly." });
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch (error) {
+      console.error("Error:", error);
+      toast({ title: "Something went wrong", description: "Please try again or contact us directly.", variant: "destructive" });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
