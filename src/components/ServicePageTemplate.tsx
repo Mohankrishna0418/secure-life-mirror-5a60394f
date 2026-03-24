@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ReactNode } from "react";
-import { CheckCircle, ArrowRight, Shield, Clock, Award } from "lucide-react";
+import { CheckCircle, ArrowRight, ArrowLeft, Shield, Clock, Award } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
@@ -24,8 +24,12 @@ const ServicePageTemplate = ({
 }: ServicePageProps) => {
   return (
     <Layout>
-      <section className="py-20 gradient-hero">
+      <section className="py-20 gradient-hero relative">
         <div className="container mx-auto px-4">
+          <Link to="/" className="inline-flex items-center gap-1.5 text-primary-foreground/70 hover:text-primary-foreground transition-colors mb-6 text-sm font-medium">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="text-center max-w-2xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-primary/15 text-primary-foreground/80 px-3 py-1.5 rounded-full text-xs font-medium mb-5 border border-primary/20">
               {icon} {badge}
