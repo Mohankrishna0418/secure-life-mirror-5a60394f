@@ -50,6 +50,11 @@ const Contact = () => {
       }]);
       if (dbError) throw dbError;
 
+      // Send email notification to owner
+      await supabase.functions.invoke("send-enquiry-email", {
+        body: { name: validation.data.name, email: validation.data.email, phone: validation.data.phone, message: validation.data.message },
+      });
+
       toast({ title: "Enquiry Submitted!", description: "Our team will contact you shortly." });
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
