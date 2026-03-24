@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ReactNode } from "react";
-import { CheckCircle, ArrowRight, Shield, Clock, Award } from "lucide-react";
+import { CheckCircle, ArrowRight, ArrowLeft, Shield, Clock, Award } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
