@@ -2,12 +2,20 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import heroBg from "@/assets/balcony-nets.jpg";
 
 const CTASection = () => {
   return (
-    <section className="py-20 gradient-primary relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-primary-foreground/5 blur-3xl" />
-      <div className="container mx-auto px-4 relative z-10">
+    <section className="relative py-24 flex items-center overflow-hidden">
+      {/* Hero Section */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-r from-foreground/85 via-foreground/70 to-foreground/40" />
+
+        <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -26,9 +34,9 @@ const CTASection = () => {
                 Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>
             </Link>
-            <a href="tel:+911234567890">
+            <a href="tel:+919449005472">
               <Button size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground bg-transparent hover:bg-primary-foreground/5 w-full sm:w-auto">
-                <Phone className="w-4 h-4 mr-1.5" /> +91 123 456 7890
+                <Phone className="w-4 h-4 mr-1.5" /> +91 9449005472
               </Button>
             </a>
           </div>

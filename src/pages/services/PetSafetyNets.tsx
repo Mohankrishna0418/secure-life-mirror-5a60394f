@@ -1,8 +1,10 @@
 import { Dog } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/pet-safety-nets.jpg";
 
 const PetSafetyNets = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Dog className="w-3.5 h-3.5" />}
     badge="Pet Safety Nets"
     title="Pet Safety Net Solutions"

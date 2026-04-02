@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Phone, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg.jpeg";
+import heroBg from "@/assets/hero-bg1.jpeg";
 
-const HeroSection = () => {
+const HeroSection = () => { 
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       {/* Background Image */}
@@ -44,7 +44,7 @@ const HeroSection = () => {
                   Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
                 </Button>
               </Link>
-              <a href="tel:+911234567890">
+              <a href="tel:+919449225472">
                 <Button size="lg" variant="outline" className="border-white/30 text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm w-full sm:w-auto">
                   <Phone className="w-4 h-4 mr-1.5" /> Call Now
                 </Button>

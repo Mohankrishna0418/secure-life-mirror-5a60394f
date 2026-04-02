@@ -1,8 +1,10 @@
 import { Target } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/sports-nets.jpg";
 
 const SportsNets = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Target className="w-3.5 h-3.5" />}
     badge="Sports Nets"
     title="Professional Sports Nets"

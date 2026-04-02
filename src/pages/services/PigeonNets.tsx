@@ -1,8 +1,10 @@
 import { Bird } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/pigeon-nets.jpg";
 
 const PigeonNets = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Bird className="w-3.5 h-3.5" />}
     badge="Pigeon Safety Nets"
     title="Premium Pigeon & Bird Safety Nets"

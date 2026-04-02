@@ -30,9 +30,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-18 py-4">
           <Link to="/" className="flex items-center gap-2.5">
             <div className="w-9 h-9 gradient-primary rounded-md flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">S</span>
+              <span className="text-primary-foreground font-display font-bold text-lg">
+                V
+              </span>
             </div>
-            <span className="text-lg font-display font-bold text-foreground">SafetyNets<span className="text-primary">Pro</span></span>
+            <span className="text-lg font-display font-bold text-foreground">
+              Vigneshwara Enterprise
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -59,7 +63,9 @@ const Header = () => {
               <DropdownMenuContent align="start" className="w-52">
                 {serviceLinks.map((link) => (
                   <DropdownMenuItem key={link.path} asChild>
-                    <Link to={link.path} className="w-full cursor-pointer">{link.name}</Link>
+                    <Link to={link.path} className="w-full cursor-pointer">
+                      {link.name}
+                    </Link>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
@@ -88,7 +94,11 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
             >
-              {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              {isMenuOpen ? (
+                <X className="w-5 h-5" />
+              ) : (
+                <Menu className="w-5 h-5" />
+              )}
             </button>
           </div>
         </div>
@@ -97,25 +107,56 @@ const Header = () => {
       {isMenuOpen && (
         <div className="lg:hidden bg-card border-t border-border">
           <nav className="container mx-auto px-4 py-3 flex flex-col gap-1">
-            {[{ name: "Home", path: "/" }, { name: "About", path: "/about" }].map((link) => (
-              <Link key={link.path} to={link.path} onClick={() => setIsMenuOpen(false)}
+            {[
+              { name: "Home", path: "/" },
+              { name: "About", path: "/about" },
+            ].map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                onClick={() => setIsMenuOpen(false)}
                 className={`px-4 py-2.5 rounded-md text-sm font-medium ${
-                  isActive(link.path) ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"
-                }`}>{link.name}</Link>
+                  isActive(link.path)
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:bg-muted"
+                }`}
+              >
+                {link.name}
+              </Link>
             ))}
-            <div className="px-4 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">Services</div>
+            <div className="px-4 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+              Services
+            </div>
             {serviceLinks.map((link) => (
-              <Link key={link.path} to={link.path} onClick={() => setIsMenuOpen(false)}
+              <Link
+                key={link.path}
+                to={link.path}
+                onClick={() => setIsMenuOpen(false)}
                 className={`px-4 py-2.5 rounded-md text-sm font-medium ${
-                  isActive(link.path) ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"
-                }`}>{link.name}</Link>
+                  isActive(link.path)
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:bg-muted"
+                }`}
+              >
+                {link.name}
+              </Link>
             ))}
-            <Link to="/contact" onClick={() => setIsMenuOpen(false)}
+            <Link
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
               className={`px-4 py-2.5 rounded-md text-sm font-medium ${
-                isActive("/contact") ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-muted"
-              }`}>Contact</Link>
+                isActive("/contact")
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:bg-muted"
+              }`}
+            >
+              Contact
+            </Link>
             <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
-              <Button className="w-full mt-2 gradient-primary"><Phone className="w-4 h-4 mr-1.5" />Free Quote</Button>
+              <Button className="w-full mt-2 gradient-primary">
+                <Phone className="w-4 h-4 mr-1.5" />
+                Free Quote
+              </Button>
             </Link>
           </nav>
         </div>

@@ -1,8 +1,10 @@
 import { Grid3X3 } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/invisible-grills.jpeg";
 
 const InvisibleGrills = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Grid3X3 className="w-3.5 h-3.5" />}
     badge="Invisible Grills"
     title="Invisible Grill Solutions"

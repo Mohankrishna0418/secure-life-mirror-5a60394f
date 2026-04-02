@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
                 <span className="text-primary-foreground font-display font-bold">S</span>
               </div>
-              <span className="text-lg font-display font-bold">SafetyNets<span className="text-primary">Pro</span></span>
+              <span className="text-lg font-display font-bold">Vigneshwara Enterperise</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional safety net installation for homes and commercial spaces. Your trusted partner for complete safety solutions.
@@ -54,15 +54,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span className="text-muted-foreground text-sm">Shop No. 45, Safety Complex, Andheri East, Mumbai - 400069</span>
+                <span className="text-muted-foreground text-sm">Hospet, T B Dam , Karnataka</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:+911234567890" className="text-muted-foreground hover:text-primary transition-colors text-sm">+91 123 456 7890</a>
+                <a href="tel:+919449225472" className="text-muted-foreground hover:text-primary transition-colors text-sm">+91 9449225472</a>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <a href="mailto:info@safetynetspro.com" className="text-muted-foreground hover:text-primary transition-colors text-sm">info@safetynetspro.com</a>
+                <a href="mailto:info@vigneshwarasafetynets.com" className="text-muted-foreground hover:text-primary transition-colors text-sm">info@vigneshwarasafetynets.com</a>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
       <div className="border-t border-muted/20">
         <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} SafetyNets Pro. All rights reserved.</p>
+          <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} Vigneshwara Enterprise. All rights reserved.</p>
           <div className="flex gap-5 text-xs">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms</a>

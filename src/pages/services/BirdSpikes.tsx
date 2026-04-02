@@ -1,8 +1,10 @@
 import { Fence } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/bird-spikes.jpg";
 
 const BirdSpikes = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Fence className="w-3.5 h-3.5" />}
     badge="Bird Spikes"
     title="Humane Bird Spike Solutions"

@@ -1,8 +1,10 @@
 import { Baby } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
+import grillsBg from "../../assets/child-safety-nets.jpg";
 
 const ChildSafetyNets = () => (
   <ServicePageTemplate
+    bgImage={grillsBg}
     icon={<Baby className="w-3.5 h-3.5" />}
     badge="Child Safety Nets"
     title="Child Safety Net Solutions"
