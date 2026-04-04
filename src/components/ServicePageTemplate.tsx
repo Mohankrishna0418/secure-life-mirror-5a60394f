@@ -25,6 +25,7 @@ interface ServicePageProps {
   cardsSubtitle: string;
   warranty?: string;
   bgImage?: string;
+  galleryImages?: string[];
 }
 
 const ServicePageTemplate = ({
@@ -180,6 +181,7 @@ const ServicePageTemplate = ({
           </div>
         </div>
       </section>
+      
 
       <CTASection />
     </Layout>
