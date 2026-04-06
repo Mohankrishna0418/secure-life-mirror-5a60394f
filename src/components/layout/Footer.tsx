@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
                 <span className="text-primary-foreground font-display font-bold">S</span>
               </div>
-              <span className="text-lg font-display font-bold">Vigneshwara Enterperise</span>
+              <span className="text-lg font-display font-bold">Vigneshwara Safety Nets</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional safety net installation for homes and commercial spaces. Your trusted partner for complete safety solutions.
@@ -71,7 +71,7 @@ const Footer = () => {
 
       <div className="border-t border-muted/20">
         <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} Vigneshwara Enterprise. All rights reserved.</p>
+          <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} Vigneshwara Safety Nets. All rights reserved.</p>
           <div className="flex gap-5 text-xs">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms</a>
