@@ -14,6 +14,7 @@ import PetSafetyNets from "./pages/services/PetSafetyNets";
 import InvisibleGrills from "./pages/services/InvisibleGrills";
 import SportsNets from "./pages/services/SportsNets";
 import BirdSpikes from "./pages/services/BirdSpikes";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/services/invisible-grills" element={<InvisibleGrills />} />
           <Route path="/services/sports-nets" element={<SportsNets />} />
           <Route path="/services/bird-spikes" element={<BirdSpikes />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
