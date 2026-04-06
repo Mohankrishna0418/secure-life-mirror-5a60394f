@@ -33,7 +33,6 @@ import invisibleGrills2 from "@/assets/gallery/invisible-grills-2.jpeg";
 import invisibleGrills3 from "@/assets/gallery/invisible-grills-3.jpeg";
 import invisibleGrills4 from "@/assets/gallery/invisible-grills-4.jpeg";
 import invisibleGrills5 from "@/assets/gallery/invisible-grills-5.jpeg";
-<<<<<<< HEAD
 import heroBg from "@/assets/hero-bg1.jpeg";
 
 const categories = [
@@ -52,26 +51,15 @@ const images = [
     category: "Bird Spikes",
     alt: "Bird spikes installation",
   },
-=======
-
-const categories = ["All", "Bird Spikes", "Sports Nets", "Balcony Nets", "Safety Nets", "Pigeon Nets", "Invisible Grills"] as const;
-
-const images = [
-  { src: birdSpikes1, category: "Bird Spikes", alt: "Bird spikes installation" },
->>>>>>> 5de8f4ba164e30a1e2185d569c9b164e606dcf58
   { src: birdSpikes2, category: "Bird Spikes", alt: "Bird spikes on ledge" },
   { src: birdSpikes3, category: "Bird Spikes", alt: "Bird spikes on building" },
   { src: birdSpikes4, category: "Bird Spikes", alt: "Bird spikes close-up" },
   { src: birdSpikes5, category: "Bird Spikes", alt: "Bird spikes product" },
-<<<<<<< HEAD
   {
     src: sportsNets1,
     category: "Sports Nets",
     alt: "Cricket net installation",
   },
-=======
-  { src: sportsNets1, category: "Sports Nets", alt: "Cricket net installation" },
->>>>>>> 5de8f4ba164e30a1e2185d569c9b164e606dcf58
   { src: sportsNets2, category: "Sports Nets", alt: "Sports net enclosure" },
   { src: sportsNets3, category: "Sports Nets", alt: "Green sports net" },
   { src: sportsNets4, category: "Sports Nets", alt: "Sports net side view" },
@@ -81,7 +69,6 @@ const images = [
   { src: balconyNets3, category: "Balcony Nets", alt: "High-rise balcony net" },
   { src: balconyNets4, category: "Balcony Nets", alt: "Balcony net exterior" },
   { src: balconyNets5, category: "Balcony Nets", alt: "Balcony net city view" },
-<<<<<<< HEAD
   {
     src: balconyNets6,
     category: "Balcony Nets",
@@ -137,30 +124,12 @@ const images = [
     category: "Invisible Grills",
     alt: "Invisible grill high-rise",
   },
-=======
-  { src: balconyNets6, category: "Balcony Nets", alt: "Balcony net front view" },
-  { src: balconyNets7, category: "Balcony Nets", alt: "Balcony net skyline view" },
-  { src: balconyNets8, category: "Balcony Nets", alt: "Multi-floor balcony nets" },
-  { src: safetyNets1, category: "Safety Nets", alt: "Staircase safety net" },
-  { src: safetyNets2, category: "Safety Nets", alt: "Staircase net top view" },
-  { src: safetyNets3, category: "Safety Nets", alt: "Safety net strength test" },
-  { src: safetyNets4, category: "Safety Nets", alt: "Rappelling installation" },
-  { src: safetyNets5, category: "Safety Nets", alt: "Safety net installation team" },
-  { src: safetyNets6, category: "Safety Nets", alt: "Duct area safety net" },
-  { src: pigeonNets1, category: "Pigeon Nets", alt: "Pigeon net on vents" },
-  { src: invisibleGrills1, category: "Invisible Grills", alt: "Invisible grill night view" },
-  { src: invisibleGrills2, category: "Invisible Grills", alt: "Invisible grill balcony" },
-  { src: invisibleGrills3, category: "Invisible Grills", alt: "Invisible grill with plants" },
-  { src: invisibleGrills4, category: "Invisible Grills", alt: "Invisible grill evening" },
-  { src: invisibleGrills5, category: "Invisible Grills", alt: "Invisible grill high-rise" },
->>>>>>> 5de8f4ba164e30a1e2185d569c9b164e606dcf58
 ];
 
 const Gallery = () => {
   const [filter, setFilter] = useState<string>("All");
   const [lightbox, setLightbox] = useState<number | null>(null);
 
-<<<<<<< HEAD
   const filtered =
     filter === "All" ? images : images.filter((img) => img.category === filter);
 
@@ -188,22 +157,6 @@ const Gallery = () => {
             <p className="text-white/80">
               Browse through our completed installations across bird spikes,
               sports nets, and safety nets.
-=======
-  const filtered = filter === "All" ? images : images.filter((img) => img.category === filter);
-
-  return (
-    <Layout>
-      {/* Hero */}
-      <section className="py-20 bg-foreground text-center">
-        <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
-            <span className="text-primary font-medium text-xs uppercase tracking-widest mb-3 block">
-              Our Work
-            </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Project Gallery</h1>
-            <p className="text-white/70 max-w-xl mx-auto">
-              Browse through our completed installations across bird spikes, sports nets, and safety nets.
->>>>>>> 5de8f4ba164e30a1e2185d569c9b164e606dcf58
             </p>
           </motion.div>
         </div>
@@ -230,14 +183,10 @@ const Gallery = () => {
           </div>
 
           {/* Image Grid */}
-<<<<<<< HEAD
           <motion.div
             layout
             className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3"
           >
-=======
-          <motion.div layout className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
->>>>>>> 5de8f4ba164e30a1e2185d569c9b164e606dcf58
             <AnimatePresence mode="popLayout">
               {filtered.map((img, i) => (
                 <motion.div
