@@ -7,24 +7,34 @@ import birdSpikes1 from "@/assets/gallery/bird-spikes-1.jpeg";
 import birdSpikes2 from "@/assets/gallery/bird-spikes-2.jpeg";
 import birdSpikes3 from "@/assets/gallery/bird-spikes-3.jpeg";
 import birdSpikes4 from "@/assets/gallery/bird-spikes-4.jpeg";
+import birdSpikes5 from "@/assets/gallery/bird-spikes-5.jpeg";
 import sportsNets1 from "@/assets/gallery/sports-nets-1.jpeg";
 import sportsNets2 from "@/assets/gallery/sports-nets-2.jpeg";
 import sportsNets3 from "@/assets/gallery/sports-nets-3.jpeg";
 import sportsNets4 from "@/assets/gallery/sports-nets-4.jpeg";
+import sportsNets5 from "@/assets/gallery/sports-nets-5.jpeg";
 import balconyNets1 from "@/assets/gallery/balcony-nets-1.jpeg";
 import balconyNets2 from "@/assets/gallery/balcony-nets-2.jpeg";
 import balconyNets3 from "@/assets/gallery/balcony-nets-3.jpeg";
 import balconyNets4 from "@/assets/gallery/balcony-nets-4.jpeg";
 import balconyNets5 from "@/assets/gallery/balcony-nets-5.jpeg";
+import balconyNets6 from "@/assets/gallery/balcony-nets-6.jpeg";
+import balconyNets7 from "@/assets/gallery/balcony-nets-7.jpeg";
+import balconyNets8 from "@/assets/gallery/balcony-nets-8.jpeg";
 import safetyNets1 from "@/assets/gallery/safety-nets-1.jpeg";
 import safetyNets2 from "@/assets/gallery/safety-nets-2.jpeg";
 import safetyNets3 from "@/assets/gallery/safety-nets-3.jpeg";
 import safetyNets4 from "@/assets/gallery/safety-nets-4.jpeg";
 import safetyNets5 from "@/assets/gallery/safety-nets-5.jpeg";
-import sportsNets5 from "@/assets/gallery/sports-nets-5.jpeg";
-import birdSpikes5 from "@/assets/gallery/bird-spikes-5.jpeg";
+import safetyNets6 from "@/assets/gallery/safety-nets-6.jpeg";
+import pigeonNets1 from "@/assets/gallery/pigeon-nets-1.jpeg";
+import invisibleGrills1 from "@/assets/gallery/invisible-grills-1.jpeg";
+import invisibleGrills2 from "@/assets/gallery/invisible-grills-2.jpeg";
+import invisibleGrills3 from "@/assets/gallery/invisible-grills-3.jpeg";
+import invisibleGrills4 from "@/assets/gallery/invisible-grills-4.jpeg";
+import invisibleGrills5 from "@/assets/gallery/invisible-grills-5.jpeg";
 
-const categories = ["All", "Bird Spikes", "Sports Nets", "Balcony Nets", "Safety Nets"] as const;
+const categories = ["All", "Bird Spikes", "Sports Nets", "Balcony Nets", "Safety Nets", "Pigeon Nets", "Invisible Grills"] as const;
 
 const images = [
   { src: birdSpikes1, category: "Bird Spikes", alt: "Bird spikes installation" },
@@ -42,11 +52,21 @@ const images = [
   { src: balconyNets3, category: "Balcony Nets", alt: "High-rise balcony net" },
   { src: balconyNets4, category: "Balcony Nets", alt: "Balcony net exterior" },
   { src: balconyNets5, category: "Balcony Nets", alt: "Balcony net city view" },
+  { src: balconyNets6, category: "Balcony Nets", alt: "Balcony net front view" },
+  { src: balconyNets7, category: "Balcony Nets", alt: "Balcony net skyline view" },
+  { src: balconyNets8, category: "Balcony Nets", alt: "Multi-floor balcony nets" },
   { src: safetyNets1, category: "Safety Nets", alt: "Staircase safety net" },
   { src: safetyNets2, category: "Safety Nets", alt: "Staircase net top view" },
   { src: safetyNets3, category: "Safety Nets", alt: "Safety net strength test" },
   { src: safetyNets4, category: "Safety Nets", alt: "Rappelling installation" },
   { src: safetyNets5, category: "Safety Nets", alt: "Safety net installation team" },
+  { src: safetyNets6, category: "Safety Nets", alt: "Duct area safety net" },
+  { src: pigeonNets1, category: "Pigeon Nets", alt: "Pigeon net on vents" },
+  { src: invisibleGrills1, category: "Invisible Grills", alt: "Invisible grill night view" },
+  { src: invisibleGrills2, category: "Invisible Grills", alt: "Invisible grill balcony" },
+  { src: invisibleGrills3, category: "Invisible Grills", alt: "Invisible grill with plants" },
+  { src: invisibleGrills4, category: "Invisible Grills", alt: "Invisible grill evening" },
+  { src: invisibleGrills5, category: "Invisible Grills", alt: "Invisible grill high-rise" },
 ];
 
 const Gallery = () => {
