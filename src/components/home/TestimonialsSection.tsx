@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
 const testimonials = [
-  { id: 1, name: "Amit Patel", role: "Mumbai", content: "Excellent pigeon net installation! Professional team, completed in 3 hours. No more pigeon problems — 2 years and zero issues.", rating: 5 },
+  { id: 1, name: "Mohan Krishna", role: "Hospet", content: "Excellent pigeon net installation! Professional team, completed in 3 hours. No more pigeon problems — 2 years and zero issues.", rating: 5 },
   { id: 2, name: "Priya Sharma", role: "Bangalore", content: "Got balcony safety nets for my kids. The invisible grills look elegant and give complete peace of mind. Highly recommend!", rating: 5 },
   { id: 3, name: "Rahul Verma", role: "Pune", content: "My cats love the balcony now! Pet safety net is strong and barely visible. Great quality and professional installation.", rating: 5 },
   { id: 4, name: "Sneha Reddy", role: "Hyderabad", content: "Sports nets for our backyard cricket area. Top-notch quality, perfect installation. Kids practice every day!", rating: 5 },
