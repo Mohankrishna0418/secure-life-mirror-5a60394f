@@ -14,6 +14,7 @@ import PetSafetyNets from "./pages/services/PetSafetyNets";
 import InvisibleGrills from "./pages/services/InvisibleGrills";
 import SportsNets from "./pages/services/SportsNets";
 import BirdSpikes from "./pages/services/BirdSpikes";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
