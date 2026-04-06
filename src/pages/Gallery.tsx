@@ -12,21 +12,41 @@ import sportsNets2 from "@/assets/gallery/sports-nets-2.jpeg";
 import sportsNets3 from "@/assets/gallery/sports-nets-3.jpeg";
 import sportsNets4 from "@/assets/gallery/sports-nets-4.jpeg";
 import balconyNets1 from "@/assets/gallery/balcony-nets-1.jpeg";
+import balconyNets2 from "@/assets/gallery/balcony-nets-2.jpeg";
+import balconyNets3 from "@/assets/gallery/balcony-nets-3.jpeg";
+import balconyNets4 from "@/assets/gallery/balcony-nets-4.jpeg";
+import balconyNets5 from "@/assets/gallery/balcony-nets-5.jpeg";
 import safetyNets1 from "@/assets/gallery/safety-nets-1.jpeg";
+import safetyNets2 from "@/assets/gallery/safety-nets-2.jpeg";
+import safetyNets3 from "@/assets/gallery/safety-nets-3.jpeg";
+import safetyNets4 from "@/assets/gallery/safety-nets-4.jpeg";
+import safetyNets5 from "@/assets/gallery/safety-nets-5.jpeg";
+import sportsNets5 from "@/assets/gallery/sports-nets-5.jpeg";
+import birdSpikes5 from "@/assets/gallery/bird-spikes-5.jpeg";
 
-const categories = ["All", "Bird Spikes", "Sports Nets", "Safety Nets"] as const;
+const categories = ["All", "Bird Spikes", "Sports Nets", "Balcony Nets", "Safety Nets"] as const;
 
 const images = [
   { src: birdSpikes1, category: "Bird Spikes", alt: "Bird spikes installation" },
   { src: birdSpikes2, category: "Bird Spikes", alt: "Bird spikes on ledge" },
   { src: birdSpikes3, category: "Bird Spikes", alt: "Bird spikes on building" },
   { src: birdSpikes4, category: "Bird Spikes", alt: "Bird spikes close-up" },
+  { src: birdSpikes5, category: "Bird Spikes", alt: "Bird spikes product" },
   { src: sportsNets1, category: "Sports Nets", alt: "Cricket net installation" },
   { src: sportsNets2, category: "Sports Nets", alt: "Sports net enclosure" },
   { src: sportsNets3, category: "Sports Nets", alt: "Green sports net" },
   { src: sportsNets4, category: "Sports Nets", alt: "Sports net side view" },
-  { src: balconyNets1, category: "Safety Nets", alt: "Balcony safety net" },
+  { src: sportsNets5, category: "Sports Nets", alt: "Cricket practice net" },
+  { src: balconyNets1, category: "Balcony Nets", alt: "Balcony safety net" },
+  { src: balconyNets2, category: "Balcony Nets", alt: "Balcony net close-up" },
+  { src: balconyNets3, category: "Balcony Nets", alt: "High-rise balcony net" },
+  { src: balconyNets4, category: "Balcony Nets", alt: "Balcony net exterior" },
+  { src: balconyNets5, category: "Balcony Nets", alt: "Balcony net city view" },
   { src: safetyNets1, category: "Safety Nets", alt: "Staircase safety net" },
+  { src: safetyNets2, category: "Safety Nets", alt: "Staircase net top view" },
+  { src: safetyNets3, category: "Safety Nets", alt: "Safety net strength test" },
+  { src: safetyNets4, category: "Safety Nets", alt: "Rappelling installation" },
+  { src: safetyNets5, category: "Safety Nets", alt: "Safety net installation team" },
 ];
 
 const Gallery = () => {
