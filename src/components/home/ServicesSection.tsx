@@ -9,7 +9,7 @@ const services = [
   { icon: Dog, title: "Pet Safety", desc: "Keep pets safe from balcony & terrace falls.", link: "/services/pet-safety-nets", image: "/images/pet-safety-nets.jpg" },
   { icon: Grid3X3, title: "Invisible Grills", desc: "Unobstructed views with maximum safety.", link: "/services/invisible-grills", image: "/images/invisible-grills.jpg" },
   { icon: Target, title: "Sports Nets", desc: "Professional-grade nets for sports facilities.", link: "/services/sports-nets", image: "/images/sports-nets.jpg" },
-  { icon: Fence, title: "Bird Spikes", desc: "Humane bird deterrent for ledges & parapets.", link: "/services/bird-spikes", image: "/images/bird-spikes.jpg" },
+  { icon: Fence, title: "Bird Spikes", desc: "Humane bird deterrent for ledges & parapets.", link: "/services/bird-spikes", image: "/images/bird-spikes-1.jpeg" },
 ];
 
 const ServicesSection = () => {

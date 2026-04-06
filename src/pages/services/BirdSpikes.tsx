@@ -1,6 +1,6 @@
 import { Fence } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
-import grillsBg from "../../assets/bird-spikes.jpg";
+import grillsBg from "../../assets/gallery/bird-spikes-1.jpeg";
 
 const BirdSpikes = () => (
   <ServicePageTemplate
