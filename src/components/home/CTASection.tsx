@@ -34,9 +34,9 @@ const CTASection = () => {
                 Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>
             </Link>
-            <a href="tel:+919449005472">
+            <a href="tel:+919611565755">
               <Button size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground bg-transparent hover:bg-primary-foreground/5 w-full sm:w-auto">
-                <Phone className="w-4 h-4 mr-1.5" /> +91 9449005472
+                <Phone className="w-4 h-4 mr-1.5" /> +91 9611 565 755
               </Button>
             </a>
           </div>

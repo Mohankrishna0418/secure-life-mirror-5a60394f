@@ -3,12 +3,12 @@ import { ArrowRight, Bird, Home, Baby, Dog, Grid3X3, Target, Fence } from "lucid
 import { motion } from "framer-motion";
 
 const services = [
-  { icon: Bird, title: "Pigeon Nets", desc: "Keep pigeons away from balconies, windows & terraces.", link: "/services/pigeon-nets", image: "/images/pigeon-nets.jpg" },
-  { icon: Home, title: "Balcony Nets", desc: "Prevent falls with high-quality balcony safety nets.", link: "/services/balcony-nets", image: "/images/balcony-nets.jpg" },
-  { icon: Baby, title: "Child Safety", desc: "Childproof windows, balconies & staircases.", link: "/services/child-safety-nets", image: "/images/child-safety-nets.jpg" },
-  { icon: Dog, title: "Pet Safety", desc: "Keep pets safe from balcony & terrace falls.", link: "/services/pet-safety-nets", image: "/images/pet-safety-nets.jpg" },
-  { icon: Grid3X3, title: "Invisible Grills", desc: "Unobstructed views with maximum safety.", link: "/services/invisible-grills", image: "/images/invisible-grills.jpg" },
-  { icon: Target, title: "Sports Nets", desc: "Professional-grade nets for sports facilities.", link: "/services/sports-nets", image: "/images/sports-nets.jpg" },
+  { icon: Bird, title: "Pigeon Nets", desc: "Keep pigeons away from balconies, windows & terraces.", link: "/services/pigeon-nets", image: "/images/safety-nets-6.jpeg" },
+  { icon: Home, title: "Balcony Nets", desc: "Prevent falls with high-quality balcony safety nets.", link: "/services/balcony-nets", image: "/images/balcony-nets-2.jpeg" },
+  { icon: Baby, title: "Child Safety", desc: "Childproof windows, balconies & staircases.", link: "/services/child-safety-nets", image: "/images/child-nets-1.jpeg" },
+  { icon: Dog, title: "Pet Safety", desc: "Keep pets safe from balcony & terrace falls.", link: "/services/pet-safety-nets", image: "/images/pet-safety-nets.png" },
+  { icon: Grid3X3, title: "Invisible Grills", desc: "Unobstructed views with maximum safety.", link: "/services/invisible-grills", image: "/images/invisible-grills.jpeg" },
+  { icon: Target, title: "Sports Nets", desc: "Professional-grade nets for sports facilities.", link: "/services/sports-nets", image: "/images/sports-nets-2.jpeg" },
   { icon: Fence, title: "Bird Spikes", desc: "Humane bird deterrent for ledges & parapets.", link: "/services/bird-spikes", image: "/images/bird-spikes-1.jpeg" },
 ];
 

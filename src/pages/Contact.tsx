@@ -15,8 +15,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 9449 225 472", "+91 7892 964 577"],
-    action: "tel:+919449225472",
+    details: ["+91 9611 565 755 "],
+    action: "tel:+919611565755",
   },
   {
     icon: Mail,
