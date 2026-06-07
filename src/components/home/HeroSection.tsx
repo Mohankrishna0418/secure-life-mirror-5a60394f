@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Phone, CheckCircle } from "lucide-react";
+import { ArrowRight, Phone, CheckCircle, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg1.jpeg";
@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       {/* Floating Action Buttons */}
-      <div className="fixed top-20 right-6 z-50 flex flex-col gap-3">
+      <div className="fixed bottom-10 right-6 z-50 flex flex-col gap-3">
         {/* Call Button */}
         <a
           href="tel:+919611565755"
@@ -77,13 +77,29 @@ const HeroSection = () => {
                   Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
                 </Button>
               </Link>
+
               <a href="tel:+919611565755">
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-white/30 text-black bg-white hover:bg-white/20 backdrop-blur-sm w-full sm:w-auto"
                 >
-                  <Phone className="w-4 h-4 mr-1.5" /> Call Now
+                  <Phone className="w-4 h-4 mr-1.5" />
+                  Call Now
+                </Button>
+              </a>
+
+              <a
+                href="https://wa.me/919611565755"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700 text-white w-full sm:w-auto"
+                >
+                  <MessageCircle className="w-4 h-4 mr-1.5" />
+                  WhatsApp
                 </Button>
               </a>
             </div>

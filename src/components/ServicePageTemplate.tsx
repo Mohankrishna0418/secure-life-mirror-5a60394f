@@ -7,6 +7,8 @@ import {
   Shield,
   Clock,
   Award,
+  Phone,
+  MessageCircle,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -78,14 +80,41 @@ const ServicePageTemplate = ({
 
             <p className="text-white/80 mb-6">{subtitle}</p>
 
-            <Link to="/contact">
-              <Button
-                size="lg"
-                className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link to="/contact">
+                <Button
+                  size="lg"
+                  className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-medium w-full sm:w-auto"
+                >
+                  Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
+                </Button>
+              </Link>
+
+              <a href="tel:+919611565755">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white/30 text-black bg-white hover:bg-white/20 backdrop-blur-sm w-full sm:w-auto"
+                >
+                  <Phone className="w-4 h-4 mr-1.5" />
+                  Call Now
+                </Button>
+              </a>
+
+              <a
+                href="https://wa.me/919611565755"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Get Free Quote <ArrowRight className="w-4 h-4 ml-1.5" />
-              </Button>
-            </Link>
+                <Button
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700 text-white w-full sm:w-auto"
+                >
+                  <MessageCircle className="w-4 h-4 mr-1.5" />
+                  WhatsApp
+                </Button>
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -181,7 +210,6 @@ const ServicePageTemplate = ({
           </div>
         </div>
       </section>
-      
 
       <CTASection />
     </Layout>
