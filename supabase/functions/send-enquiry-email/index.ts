@@ -25,7 +25,7 @@ serve(async (req) => {
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background: linear-gradient(135deg, #1B5E20, #2E7D32); padding: 20px; border-radius: 8px 8px 0 0;">
           <h1 style="color: white; margin: 0; font-size: 22px;">🔔 New Enquiry Received</h1>
-          <p style="color: rgba(255,255,255,0.8); margin: 5px 0 0; font-size: 14px;">Vignesha Safety Nets</p>
+          <p style="color: rgba(255,255,255,0.8); margin: 5px 0 0; font-size: 14px;">Vigneshwara Safety Nets</p>
         </div>
         <div style="border: 1px solid #e0e0e0; border-top: none; padding: 24px; border-radius: 0 0 8px 8px;">
           <table style="width: 100%; border-collapse: collapse;">
@@ -59,7 +59,7 @@ serve(async (req) => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Vignesha Safety Nets <onboarding@resend.dev>",
+        from: "vigneshwara Safety Nets <onboarding@resend.dev>",
         to: [OWNER_EMAIL],
         subject: `New Enquiry from ${name}`,
         html: emailHtml,
