@@ -90,7 +90,7 @@ const ServicePageTemplate = ({
                 </Button>
               </Link>
 
-              <a href="tel:+919611565755">
+              <a href="tel:+919449225472">
                 <Button
                   size="lg"
                   variant="outline"
@@ -102,7 +102,7 @@ const ServicePageTemplate = ({
               </a>
 
               <a
-                href="https://wa.me/919611565755"
+                href="https://wa.me/919449225472"
                 target="_blank"
                 rel="noopener noreferrer"
               >

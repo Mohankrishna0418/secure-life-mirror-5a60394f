@@ -16,7 +16,7 @@ const contactInfo = [
     icon: Phone,
     title: "Phone",
     details: ["+91 9611 565 755 "],
-    action: "tel:+919611565755",
+    action: "tel:+919449225472",
   },
   {
     icon: Mail,
@@ -125,7 +125,7 @@ const Contact = () => {
       <div className="fixed bottom-10 right-6 z-50 flex flex-col gap-3">
         {/* Call Button */}
         <a
-          href="tel:+919611565755"
+          href="tel:+919449225472"
           className="bg-red-600 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
           aria-label="Call"
         >
@@ -134,7 +134,7 @@ const Contact = () => {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/919611565755"
+          href="https://wa.me/919449225472"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"

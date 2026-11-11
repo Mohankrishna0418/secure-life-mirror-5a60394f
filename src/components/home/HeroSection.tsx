@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Phone, CheckCircle, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,7 +12,7 @@ const HeroSection = () => {
       <div className="fixed bottom-10 right-6 z-50 flex flex-col gap-3">
         {/* Call Button */}
         <a
-          href="tel:+919611565755"
+          href="tel:+919449225472"
           className="bg-red-600 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
           aria-label="Call"
         >
@@ -20,7 +21,7 @@ const HeroSection = () => {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/919611565755"
+          href="https://wa.me/919449225472"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
@@ -53,7 +54,7 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 bg-primary/20 text-white px-3 py-1.5 rounded-full text-xs font-medium mb-6 border border-primary/30 backdrop-blur-sm">
               <CheckCircle className="w-3.5 h-3.5" />
-              10,000+ Installations Completed
+              10,0000+ Installations Completed
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-[1.1] mb-5">
@@ -78,7 +79,7 @@ const HeroSection = () => {
                 </Button>
               </Link>
 
-              <a href="tel:+919611565755">
+              <a href="tel:+919449225472">
                 <Button
                   size="lg"
                   variant="outline"
@@ -90,7 +91,7 @@ const HeroSection = () => {
               </a>
 
               <a
-                href="https://wa.me/919611565755"
+                href="https://wa.me/919449225472"
                 target="_blank"
                 rel="noopener noreferrer"
               >
