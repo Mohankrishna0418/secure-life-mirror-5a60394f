@@ -12,12 +12,12 @@ const Footer = () => {
               <div className="w-10 h-10 flex items-center justify-center">
                 <img
                   src={logo}
-                  alt="Vigneshwara Safety Nets Logo"
+                  alt="Vignesha Safety Nets Logo"
                   className="w-full h-full object-contain"
                 />
               </div>
               <span className="text-lg font-display font-bold">
-                Vigneshwara Safety Nets
+                Vignesha Safety Nets
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -97,10 +97,10 @@ const Footer = () => {
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 <a
-                  href="mailto:info@vigneshwarasafetynets.com"
+                  href="mailto:info@vigneshawarasafetynets.com"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                  info@vigneshwarasafetynets.com
+                  info@Vigneshawarasafetynets.com
                 </a>
               </li>
             </ul>
@@ -111,7 +111,7 @@ const Footer = () => {
       <div className="border-t border-muted/20">
         <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-muted-foreground text-xs">
-            © {new Date().getFullYear()} Vigneshwara Safety Nets. All rights
+            © {new Date().getFullYear()} Vignesha Safety Nets. All rights
             reserved.
           </p>
           <div className="flex gap-5 text-xs">

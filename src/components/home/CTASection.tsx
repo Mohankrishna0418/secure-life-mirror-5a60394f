@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/balcony-nets.jpg";
+import heroBg from "@/assets/image.png";
 
 const CTASection = () => {
   return (

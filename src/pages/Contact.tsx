@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["info@vigneshwarasafetynets9071@gmail.com"],
-    action: "mailto:info@vigneshwarasafetynets9071@gmail.com",
+    details: ["info@Vigneshawarasafetynets9071@gmail.com"],
+    action: "mailto:info@Vigneshawarasafetynets9071@gmail.com",
   },
   {
     icon: MapPin,

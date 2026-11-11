@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Phone, CheckCircle, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg1.jpeg";
+import heroBg from "@/assets/image1.png";
 
 const HeroSection = () => {
   return (
