@@ -51,12 +51,12 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-4">
             <img
               src={logo}
-              alt="Vignesha Safety Nets"
+              alt="Vigneshwara Safety Nets"
               className="h-14 w-auto object-contain"
             />
 
             <span className="text-2xl font-display font-bold text-foreground">
-              Vignesha Safety Nets
+              Vigneshwara Safety Nets
             </span>
           </Link>
 
