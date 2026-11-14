@@ -1,6 +1,6 @@
 import { Fence, Phone } from "lucide-react";
 import ServicePageTemplate from "@/components/ServicePageTemplate";
-import grillsBg from "../../assets/gallery/bird-spikes-1.jpeg";
+import grillsBg from "../../assets/image8.png";
 
 const BirdSpikes = () => (
   <>
